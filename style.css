@@ -2,7 +2,17 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+    background-color: rgb(35, 35, 35);
+    color: #1CDBFA;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: small;
 }
+
+/* Jetbrains Mono Font */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 
 /* Navigation Bar */
 nav {
@@ -20,6 +30,15 @@ nav li {
 }
 
 .resume {
-    border: 2px solid black;
+    border: 2px solid #1CDBFA;
+    border-radius: 7px;
     padding: 10px;
+
+    font-family: 'JetBrains Mono', monospace;
+    font-size: small;
+}
+
+.resume:hover {
+    background-color: #1CDBFA;
+    color: rgb(35, 35, 35);
 }
