@@ -14,6 +14,12 @@
 /* Jetbrains Mono Font */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
+/* Russo One */
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+/* Lexend Black (900) */
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+
 
 /* Navigation Bar */
 nav {
@@ -45,4 +51,31 @@ nav li {
 .resume:hover {
     background-color: #1CDBFA;
     color: rgb(35, 35, 35);
+}
+
+.logo {
+    border: 2px solid #1CDBFA;
+    border-bottom: 5px solid #1CDBFA;
+    padding-top: 4px;
+    width: 50px;
+    height: 50px;
+
+    /* moves logo to far left */
+    position: absolute;
+    left: 0;
+    
+    /* Places M in center of Square */
+    display: grid;
+    place-content: center;
+}
+
+.logo h1 {
+    font-family: 'Lexend', sans-serif;
+    font-size: 38px;
+}
+
+/* click effect*/
+.logo:hover {
+    border: 2px solid #1CDBFA;
+    border-bottom: 3px solid #1CDBFA;
 }
