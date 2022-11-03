@@ -10,6 +10,7 @@
     font-size: small;
 }
 
+
 /* Jetbrains Mono Font */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
@@ -21,6 +22,8 @@ nav {
     align-items: center;
 
     padding: 30px;
+
+
 }
 
 nav li {
@@ -33,6 +36,7 @@ nav li {
     border: 2px solid #1CDBFA;
     border-radius: 7px;
     padding: 10px;
+    margin-left: 43px;
 
     font-family: 'JetBrains Mono', monospace;
     font-size: small;
