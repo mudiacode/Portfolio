@@ -10,6 +10,7 @@
     font-size: small;
 }
 
+/* ---------------------------------------------------------------------------------- */
 
 /* Jetbrains Mono Font */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
@@ -29,7 +30,7 @@ nav {
 
     padding: 30px;
 
-
+    background-color: rgb(35, 35, 35);
 }
 
 nav li {
