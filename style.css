@@ -1,3 +1,25 @@
 * {
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+
+    margin-left: 50px;
+}
+
+.resume {
+    border: 2px solid black;
+    padding: 10px;
 }
