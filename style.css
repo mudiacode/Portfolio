@@ -26,7 +26,6 @@
 nav {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
 
     padding: 30px;
 
@@ -78,10 +77,25 @@ nav li {
 .logo h1 {
     font-family: 'Lexend', sans-serif;
     font-size: 38px;
+
+    background-color: transparent;
 }
 
 /* click effect*/
 .logo:hover {
     border: 2px solid #1CDBFA;
     border-bottom: 3px solid #1CDBFA;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 85% 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.intro {
+    display: grid;
+    grid-area: 1 / 2 / 3 / 3;
 }
