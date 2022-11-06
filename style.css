@@ -1,101 +1,160 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
-    background-color: rgb(35, 35, 35);
-    color: #1CDBFA;
+  background-color: rgb(35, 35, 35);
+  color: #1cdbfa;
 
-    font-family: 'JetBrains Mono', monospace;
-    font-size: small;
+  font-family: "JetBrains Mono", monospace;
+  font-size: small;
 }
 
 /* ---------------------------------------------------------------------------------- */
 
 /* Jetbrains Mono Font */
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 /* Russo One */
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
 
-/* Lexend Black (900) */
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap');
+/* Lexend (900) */
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@900&display=swap");
 
+/* Roboto Condensed */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+
+/* Bebas Neue */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+/* Press Start P2 */
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 /* Navigation Bar */
 nav {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 
-    padding: 30px;
+  padding: 30px;
 
-    background-color: rgb(35, 35, 35);
+  background-color: rgb(35, 35, 35);
 }
 
 nav li {
-    display: inline-block;
+  display: inline-block;
 
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .resume {
-    border: 2px solid #1CDBFA;
-    border-radius: 7px;
-    padding: 10px;
-    margin-left: 43px;
+  border: 2px solid #1cdbfa;
+  border-radius: 7px;
+  padding: 10px;
+  margin-left: 43px;
 
-    font-family: 'JetBrains Mono', monospace;
-    font-size: small;
+  font-family: "JetBrains Mono", monospace;
+  font-size: small;
 }
 
 .resume:hover {
-    background-color: #1CDBFA;
-    color: rgb(35, 35, 35);
+  background-color: #1cdbfa;
+  color: rgb(35, 35, 35);
 }
 
 .logo {
-    border: 2px solid #1CDBFA;
-    border-bottom: 5px solid #1CDBFA;
-    padding-top: 4px;
-    width: 50px;
-    height: 50px;
+  border: 2px solid #1cdbfa;
+  border-bottom: 5px solid #1cdbfa;
+  padding-top: 4px;
+  width: 50px;
+  height: 50px;
 
-    background-color: transparent;
+  background-color: transparent;
 
-    /* moves logo to far left */
-    position: absolute;
-    left: 0;
-    
-    /* Places M in center of Square */
-    display: grid;
-    place-content: center;
+  /* moves logo to far left */
+  position: absolute;
+  left: 0;
 
-    margin-left: 28px;
+  /* Places M in center of Square */
+  display: grid;
+  place-content: center;
 
+  margin-left: 28px;
 }
 
 .logo h1 {
-    font-family: 'Lexend', sans-serif;
-    font-size: 38px;
+  font-family: "Lexend", sans-serif;
+  font-size: 38px;
 
-    background-color: transparent;
+  background-color: transparent;
 }
 
 /* click effect*/
 .logo:hover {
-    border: 2px solid #1CDBFA;
-    border-bottom: 3px solid #1CDBFA;
+  border: 2px solid #1cdbfa;
+  border-bottom: 3px solid #1cdbfa;
 }
 
 .grid-container {
-    display: grid;
-    grid-template-columns: 1fr 85% 1fr;
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+  display: grid;
+  grid-template-columns: 1fr 85% 1fr;
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .intro {
-    display: grid;
-    grid-area: 1 / 2 / 3 / 3;
+  display: grid;
+  grid-area: 1 / 2 / 4 / 3;
+  padding: 50px;
+}
+
+.intro p {
+  font-size: large;
+}
+
+.want s {
+  font-size: large;
+  color: white;
+}
+
+.intro h1 {
+  font-size: 80px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+
+  font-family: "Bebas Neue", cursive;
+}
+
+.intro-hi p {
+    margin-bottom: 50px;
+}
+
+.intro-name h1 {
+  color: grey;
+}
+
+.intro-name-sub h1 {
+  color: rgb(183, 183, 183);
+  margin-bottom: 50px;
+}
+
+.intro-name-sub h1::after {
+  content: "";
+  width: 5px;
+  height: 58px;
+  margin-left: 10px;
+  background: #1cdbfa;
+  display: inline-block;
+
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+.intro-text p {
+  color: white;
 }
