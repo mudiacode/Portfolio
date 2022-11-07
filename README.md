@@ -3,9 +3,9 @@ ___
 
 ## <u>Sections</u>
 
-1. [Intro](mudiaUON.github.io/Portfolio/)
-2. [About-me](mudiaUON.github.io/Portfolio/)
-3. [Projects](mudiaUON.github.io/Portfolio/)
-4. [Contacts](mudiaUON.github.io/Portfolio/)
+1. [Intro](https://mudiauon.github.io/Portfolio/)
+2. [About-me](https://mudiauon.github.io/Portfolio/)
+3. [Projects](https://mudiauon.github.io/Portfolio/)
+4. [Contacts](https://mudiauon.github.io/Portfolio/)
 
 
