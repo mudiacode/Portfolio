@@ -210,6 +210,22 @@ nav li {
 	align-items: center;
 }
 
+/* about me section */
+.about-container{
+  display: grid;
+  grid-template-columns: 1fr 70% 1fr;
+  grid-template-rows: repeat(1fr, 5);
+  height: 500px;
+  background-color: grey;
+
+}
+
+.about {
+  grid-area: 1 / 2 / 4 / 3;
+  background-color: grey;
+}
+
+
 /* TODO: Make social media side menu */
 /* TODO: Turn intro into 2 grids with even padding and margins */
 /* TODO: Remove down arrow icon */
